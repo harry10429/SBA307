@@ -1,0 +1,141 @@
+.topbar {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.Configbody {
+    display: grid;
+    grid-template-columns: 150px 650px 1fr;
+   
+
+
+}
+.ConfigbodyS{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+.bar {
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+
+}
+
+.left-navi {
+    float: left;
+    border-bottom: 1px solid #bbb;
+}
+
+
+.left-navi:hover {
+    background-color: rgb(106, 106, 106);
+}
+
+.left-navi a {
+    display: block;
+    color: #ffffff;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.left-navi a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+
+input[type="submit"] {
+    background-color: rgb(87, 77, 224);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+
+
+fieldset {
+    background-color: white;
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-color: silver;
+    border-width: thin;
+
+
+}
+
+form {
+    text-align-last: center;
+
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align-last: left;
+
+}
+
+/* animation to center */
+#carouselExampleIndicators {
+    transition-duration: 2s;
+}
+
+#carouselExampleIndicators:hover {
+    transform: translate(60%, 30%);
+}
+
+/* animation for rotate */
+.AnimatedRotate {
+    transition-duration: 3s;
+}
+
+ 
+.AnimatedRotate:hover {
+    transform: rotate(720deg);
+}
+
+.listR1:link {
+    color: black;
+}
+
+.listR1:hover,.listR1:visited:hover {
+    color: rgb(7, 66, 125)
+}
+
+.listR1:visited {
+    color: red;
+}
+
+.londrina-sketch-regular1 {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+    position: absolute;
+    color:black;
+    top: 600px;
+    left: 200px;
+    width: 300px;
+    height: 200px;
+
+  }
+
